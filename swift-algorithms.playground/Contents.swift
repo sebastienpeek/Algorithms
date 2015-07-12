@@ -6,7 +6,6 @@ Due to not having gone to University, I figured it was best that I gained some m
 This playground will be split up into weeks, and then into chapters explicitly.
 
 ### Week 1
-
 Union-Find
 */
 
@@ -24,3 +23,13 @@ quickFindUF.union(3, q: 8)
 quickFindUF.connected(8, q: 9)
 
 // Quick Union
+
+let quickUnionUF = QuickUnionUF(N: 10)
+quickUnionUF.union(1, q: 2)
+quickUnionUF.union(5, q: 6)
+quickUnionUF.union(2, q: 5)
+quickUnionUF.connected(5, q: 1)
+
+quickUnionUF.union(3, q: 9)
+quickUnionUF.union(3, q: 8)
+quickUnionUF.connected(3, q: 9)
