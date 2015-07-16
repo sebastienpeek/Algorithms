@@ -43,3 +43,14 @@ flattenedWQuickUnionUF.union(1, q: 2)
 flattenedWQuickUnionUF.union(5, q: 6)
 flattenedWQuickUnionUF.union(2, q: 5)
 flattenedWQuickUnionUF.connected(1, q: 5)
+
+/*:
+### Week 1
+Analysis of Algorithms
+*/
+
+// Observations
+// 3-Sum Brute Force
+let intArray = [30, -40, -20, -10, 40, 0, 10, 5]
+let bruteForce =  BruteForceSum(N:intArray)
+bruteForce.count()
