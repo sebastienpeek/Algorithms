@@ -51,6 +51,11 @@ Analysis of Algorithms
 
 // Observations
 // 3-Sum Brute Force
-let intArray = [30, -40, -20, -10, 40, 0, 10, 5]
-let bruteForce =  BruteForceSum(N:intArray)
+let sumArray = [30, -40, -20, -10, 40, 0, 10, 5]
+let bruteForce =  BruteForceSum(N:sumArray)
 bruteForce.count()
+
+// Binary Search
+let binaryArray = [0, 13, 14, 25, 33, 43, 51, 53, 64, 72, 84, 93, 95, 96, 97]
+let binarySearch = BinarySearchClass()
+binarySearch.binarySearchFunction(binaryArray, key:72)
