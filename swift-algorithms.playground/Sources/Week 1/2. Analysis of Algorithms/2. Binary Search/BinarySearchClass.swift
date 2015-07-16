@@ -1,5 +1,7 @@
 import Foundation
 
+// Binary search uses at most 1 + lgN compares to search in a sorted array of size N.
+
 public class BinarySearchClass {
     
     public init () {
